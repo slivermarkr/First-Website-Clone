@@ -63,3 +63,6 @@ p {
 .description header:hover{
 color: hsl(47, 88%, 63%);
 }
+.footnote {
+    text-align: center;
+}
