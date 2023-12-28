@@ -1,0 +1,65 @@
+html {
+    background-color:hsl(47, 88%, 63%);
+}
+.body {
+    display: flex;
+    justify-content: center;
+    
+}
+.card {
+    border: 2px solid black;
+    border-radius: 1rem;
+    width: 350px;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    background-color: white; 
+    box-shadow: 5px 5px 0px 0.2px rgba(0, 0, 0, 1);   
+}
+.content {
+    padding: 1em;
+}
+.illustration {
+    max-width: inherit;
+}
+.illustration img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: .2rem auto 2em;
+    border-radius: 1rem;
+}
+.info span{
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px;
+    border-radius: 5px;
+}
+.description header{
+    font-size: 24px;
+    font-weight: 900;
+}
+.description p {
+    color: hsl(0, 0%, 50%);
+    width: 100%; 
+}
+p {
+    font-size: 16px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer span {
+    font-weight: 600;
+    font-size: 18px;
+}
+.footer img {
+    height: 50px;
+    width: 50px;
+}
+.card:hover {
+    box-shadow: 8px 8px 0px 1px rgb(0, 0, 0, 1);
+}
+.description header:hover{
+color: hsl(47, 88%, 63%);
+}
